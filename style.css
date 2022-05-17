@@ -47,10 +47,13 @@
 }
 
 .tribute-welcome{
-    position: absolute;
+  position: absolute;
   top: 30px;
   left: 20px;
   margin: auto 32%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 #title{
     display: flex;
@@ -152,7 +155,7 @@ section p{
     align-items: center;
 }
 
-@media (min-height: 720px) {
+@media (max-width: 1000px) {
     .article-main{
       
         flex-wrap: wrap;
